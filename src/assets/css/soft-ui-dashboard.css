@@ -24926,4 +24926,11 @@ pre[class*="language-"] {
   }
 }
 
+details > summary {
+  list-style: none;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
 /*# sourceMappingURL=dashboard-free.css.map */
