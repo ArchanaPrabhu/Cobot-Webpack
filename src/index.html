@@ -35,7 +35,7 @@
         <div class="col-lg-6 col-md-6 mb-md-0 mb-4">
           <div class="card h-100">
             <div class="card-header pb-0">
-              <h5>Contribution overview</h5>
+              <h5>Connect Insights</h5>
               <p class="text-sm">
                 <i class="fa fa-arrow-up text-success"></i>
                 <span class="font-weight-bold">4% more</span> this month
@@ -49,21 +49,6 @@
           </div>
         </div>
         <div class="col-lg-6 col-md-6">
-          <div class="card">
-            <div class="card-body p-3">
-              <h5 class="ms-2 mt-4 mb-0"> Contribution insights </h5>
-              <p class="text-sm ms-2"> (<span class="font-weight-bolder">+23%</span>) than last month </p>
-              <div class="card-body p-3">
-                <div class="chart">
-                  <canvas id="chart-line" class="chart-canvas" height="300"></canvas>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row my-4">
-        <div class="col-lg-4 col-md-6 mb-md-0 mb-4">
           <div class="card h-100">
             <div class="card-header pb-0">
 
@@ -189,12 +174,15 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-8 col-md-6">
+        
+      </div>
+      <div class="row my-4">
+        <div class="col-lg-6 col-md-6 mb-md-0 mb-4">
           <div class="card h-100">
             <details>
               <summary>
                 <div class="card-header pb-0">
-                  <h5>Projects</h5>
+                  <h5>Personal Accomplishments</h5>
                   <p class="text-sm mb-0">
                     <i class="fa fa-check text-info" aria-hidden="true"></i>
                     <span class="font-weight-bold ms-1">30 done</span> this month
@@ -341,7 +329,7 @@
                                 alt="spotify">
                             </div>
                             <div class="d-flex flex-column justify-content-center">
-                              <h6 class="mb-0 text-sm">Launch our Mobile App</h6>
+                              <h6 class="mb-0 text-sm"> Mobile App Launch</h6>
                             </div>
                           </div>
                         </td>
@@ -455,6 +443,19 @@
                 </div>
               </div>
             </details> 
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6">
+          <div class="card">
+            <div class="card-body p-3">
+              <h5 class="ms-2 mt-4 mb-0"> Chronological Progress </h5>
+              <p class="text-sm ms-2"> (<span class="font-weight-bolder">+23%</span>) than last month </p>
+              <div class="card-body p-3">
+                <div class="chart">
+                  <canvas id="chart-line" class="chart-canvas" height="300"></canvas>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -602,7 +603,7 @@
                                 <img src="images/content/img/logos/tips-ds-job-logo.jpg" width="20px" height="20px" class="avatar avatar-sm me-3" alt="jira">
                               </div>
                               <div class="d-flex flex-column justify-content-center">
-                                <h6 class="mb-0 text-sm">15 Tips for Landing a Data Science Job</h6>
+                                <h6 class="mb-0 text-sm">Landing a Data Science Job</h6>
                               </div>
                             </div>
                           </a>  
@@ -644,7 +645,7 @@
                       <i class="ni ni-calendar-grid-58 text-primary text-gradient"></i>
                     </span>
                     <div class="timeline-content">
-                      <h6 class="text-dark text-sm font-weight-bold mb-0">Migration to Reactive Native</h6>
+                      <h6 class="text-dark text-sm font-weight-bold mb-0">Terrific Code Thursdays</h6>
                       <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">12 Aug, 15:00 - 16:00</p>
                     </div>
                   </div>
@@ -653,7 +654,7 @@
                       <i class="ni ni-calendar-grid-58 text-primary text-gradient"></i>
                     </span>
                     <div class="timeline-content">
-                      <h6 class="text-dark text-sm font-weight-bold mb-0">Mobile Excellence Meetings</h6>
+                      <h6 class="text-dark text-sm font-weight-bold mb-0">IDC Mobile Excellence Meet up</h6>
                       <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">12 Sept, 15:00 - 16:00</p>
                     </div>
                   </div>
@@ -806,9 +807,9 @@
             pointRadius: 0,
             borderColor: "#cb0c9f",
             borderWidth: 3,
-            backgroundColor: gradientStroke1,
-            fill: true,
-            data: [0, 10, 10, 30, 10, 20, 10, 36, 90, 50],
+            // backgroundColor: gradientStroke1,
+            // fill: true,
+            data: [0, 10, 10, 30, 10, 20, 40, 36, 90, 50],
             maxBarThickness: 6
           },
           {
@@ -818,9 +819,9 @@
             pointRadius: 0,
             borderColor: "#3A416F",
             borderWidth: 3,
-            backgroundColor: gradientStroke2,
-            fill: true,
-            data: [0, 30, 70, 50, 60, 70, 90, 34, 60, 40],
+            // backgroundColor: gradientStroke2,
+            // fill: true,
+            data: [0, 30, 70, 50, 60, 40, 60, 34, 60, 40],
             maxBarThickness: 6
           },
           {
@@ -830,8 +831,8 @@
             pointRadius: 0,
             borderColor: "#8D419F",
             borderWidth: 3,
-            backgroundColor: gradientStroke2,
-            fill: true,
+            // backgroundColor: gradientStroke2,
+            // fill: true,
             data: [0, 60, 20, 20, 30, 10, 0, 30, 25, 10],
             maxBarThickness: 6
           },
